@@ -161,7 +161,8 @@ To run successfully, this actions needs at least :
 
 ```yaml
 permissions: 
-   pull-requests: write 
+   pull-requests: write
+   contents: read
 ```
 
 Add this in case you get `Resource not accessible by integration` error.
